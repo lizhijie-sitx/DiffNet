@@ -1180,6 +1180,10 @@ def unitTest( tol=1.e-4):
     
     x0 = np.random.rand( K*(K+1)/2)
     err = check_grad( F, dF, x0)
+    print '******** K = %d' % K
+    print '******** x0 = %s' % x0
+    print '******** F(x0) = %s' % F(x0)
+    print '******** dF(x0) = %s' % dF(x0)
     print 'Gradient check for ln(det(C)) error=%g:' % err,
     if (err < tol):
         print 'Passed!'

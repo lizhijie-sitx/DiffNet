@@ -131,6 +131,10 @@ def benchmark_diffnet( sij_generator, ntimes=100,
         else:
             sij = sij_generator()
             results = optimize( sij, optimalities)
+
+        for o in optimalities:
+            print('%s :\n%s' % (o, results[o]))
+
         ssum = np.sum( np.triu( sij))
         if None in results.values(): 
             nfails += 1
@@ -225,13 +229,12 @@ def benchmark_sparse_net( K=30, measure_per=3, connectivity=3,
         sij = random_net_sij_generator( K, sii_offset, sij_min, sij_max)
         nij = A_optimize( sij)
         trC = np.trace( covariance( sij, nij))
-        nijp = sparse_A_optimal_network( sij, nsofar, nadd, n_measure, connectivity)
+        nijp = sparse_A_optimal_network( sij, nadd, nsofar, n_measure, connectivity)
         nijp = np.asarray( nijp)
         nijp[nijp < ncutoff] = 0
         nijp = matrix( nijp)
         trCp = np.trace( covariance( sij, nijp))
         ratio[t] = trCp/trC
-        
     return np.mean(ratio), np.std(ratio)
 
 def analyze_uniform_net( pmax=6, dmax=25., Nd=20):
@@ -345,6 +348,9 @@ def main( args):
         pickle.dump( dict(stats=stats, topo=topo), 
                      file( args.out_random_net, 'wb'))
         write_average( avg)
+        print('stats = \n%s' % stats)
+        print('avg = \n%s' % avg)
+        print('topo = \n%s' % topo)
     if args.out_const_rel_net is not None:
         print 'Benchmarking diffnet with constant relative errors...'
         stats, avg, topo = benchmark_const_rel_net( args.num_points, ntimes=args.num_times)
