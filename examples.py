@@ -288,6 +288,21 @@ def benchmark_E_tree( K=30, ntimes=100):
     dn = np.sqrt( dn)
     return timings, dn
 
+def benchmark_update_A_optimal(K=30, rmin=0.2, dim=2):
+    def sij_generator():
+        return distance_net(K=K, dim=dim, rmin=rmin)[0]
+    sij = sij_generator()
+    nsofar = matrix(np.zeros([K, K]))
+    update_A_optimal(sij, K * (K + 1) / 2 * 1000, nsofar)
+
+def benchmark_sparse_A_optimal_network(K=30, rmin=0.2, dim=2, connectivity=3):
+    print("benchmark_sparse_A_optimal_network, K= %d, connectivity = %d" % (K, connectivity))
+    def sij_generator():
+        return distance_net(K=K, dim=dim, rmin=rmin)[0]
+    sij = sij_generator()
+    nsofar = matrix(np.zeros([K, K]))
+    sparse_A_optimal_network(sij, K * (K + 1) / 2 * 1000, nsofar, connectivity=connectivity)
+
 import argparse
 
 def opts():
@@ -304,6 +319,10 @@ def opts():
                          help='Name of pickle file to write benchmark results for constant relative error net.')
     parser.add_argument( '--out-random-net', default=None,
                          help='Name of pickle file to write benchmark results for random net.')
+    parser.add_argument( '--out-update-A-optimal', default=None,
+                         help='Name of pickle file to write benchmark results for update A optimal net.')
+    parser.add_argument( '--out-sparse-A-optimal-network', default=None,
+                         help='Name of pickle file to write benchmark results for update A optimal sparse net.')
     parser.add_argument( '--sii-offset', type=float, default=0.,
                          help='The average offset of s_{ii} from s_{ij}.')
     parser.add_argument( '--sij-min', type=float, default=1.,
@@ -351,6 +370,12 @@ def main( args):
         print('stats = \n%s' % stats)
         print('avg = \n%s' % avg)
         print('topo = \n%s' % topo)
+    if args.out_update_A_optimal is not None:
+        print 'Benchmarking update A optimal...'
+        benchmark_update_A_optimal(args.num_points)
+    if args.out_sparse_A_optimal_network is not None:
+        print 'Benchmarking update A optimal...'
+        benchmark_sparse_A_optimal_network(args.num_points, connectivity=args.connectivity)
     if args.out_const_rel_net is not None:
         print 'Benchmarking diffnet with constant relative errors...'
         stats, avg, topo = benchmark_const_rel_net( args.num_points, ntimes=args.num_times)
