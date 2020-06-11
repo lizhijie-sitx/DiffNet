@@ -1,0 +1,243 @@
+~~~~~~~~~~~~~~~~~
+++++++++++++++++++++ Start benchmark sparse, K=60
+Benchmarking update A optimal...
+benchmark_sparse_A_optimal_network, K= 60, connectivity = 3
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1618 time = 41ms
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1647 t2-t1 = 527ms, t3-t2 = 179ms, t4-t3 = 57ms, t5-t4 = 533ms, t5-t0 = 2782ms
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 142ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 136ms, whole sover
+     pcost       dcost       gap    pres   dres   k/t
+ 0: -7.7072e-13 -2.8522e-13  6e+08  8e+05  3e+04  1e+00
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1647 t2-t1 = 700ms, t3-t2 = 175ms, t4-t3 = 47ms, t5-t4 = 382ms, t5-t0 = 3040ms
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 119ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 116ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 117ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 120ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 115ms, whole sover
+ 1:  2.4747e+06  2.5062e+06  2e+09  1e+06  4e+04  3e+04
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1647 t2-t1 = 693ms, t3-t2 = 176ms, t4-t3 = 48ms, t5-t4 = 383ms, t5-t0 = 2810ms
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 118ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 113ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 113ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 122ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 113ms, whole sover
+ 2:  5.1875e+05  6.5492e+05  8e+08  9e+05  3e+04  1e+05
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1647 t2-t1 = 666ms, t3-t2 = 215ms, t4-t3 = 47ms, t5-t4 = 387ms, t5-t0 = 2856ms
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 205ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 124ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 125ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 123ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 120ms, whole sover
+ 3: -8.3497e+05 -7.2655e+05  9e+07  2e+05  6e+03  1e+05
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1647 t2-t1 = 672ms, t3-t2 = 225ms, t4-t3 = 56ms, t5-t4 = 448ms, t5-t0 = 2868ms
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 129ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 122ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 121ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 122ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 120ms, whole sover
+ 4: -1.1162e+05 -8.9433e+04  4e+06  2e+04  6e+02  2e+04
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1647 t2-t1 = 819ms, t3-t2 = 238ms, t4-t3 = 52ms, t5-t4 = 482ms, t5-t0 = 3139ms
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 189ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 158ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 155ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 159ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 155ms, whole sover
+ 5: -4.2598e+03 -3.1697e+03  2e+05  8e+02  2e+01  1e+03
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1647 t2-t1 = 639ms, t3-t2 = 178ms, t4-t3 = 51ms, t5-t4 = 550ms, t5-t0 = 2867ms
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 161ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 165ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 166ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 165ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 165ms, whole sover
+ 6: -9.6982e+01 -7.0514e+01  4e+03  2e+01  6e-01  3e+01
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1647 t2-t1 = 433ms, t3-t2 = 158ms, t4-t3 = 49ms, t5-t4 = 487ms, t5-t0 = 2670ms
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 165ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 166ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 165ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 165ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 165ms, whole sover
+ 7: -1.4939e+00 -1.0799e+00  6e+01  3e-01  9e-03  4e-01
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1647 t2-t1 = 429ms, t3-t2 = 161ms, t4-t3 = 51ms, t5-t4 = 492ms, t5-t0 = 2621ms
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 164ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 164ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 160ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 148ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 145ms, whole sover
+ 8: -1.2727e-02 -8.3590e-03  7e-01  3e-03  9e-05  4e-03
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1647 t2-t1 = 657ms, t3-t2 = 200ms, t4-t3 = 64ms, t5-t4 = 475ms, t5-t0 = 2928ms
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 134ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 134ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 132ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 131ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 131ms, whole sover
+ 9:  2.1085e-03  2.3565e-03  3e-02  1e-04  4e-06  2e-04
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1647 t2-t1 = 615ms, t3-t2 = 169ms, t4-t3 = 53ms, t5-t4 = 497ms, t5-t0 = 2803ms
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 120ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 121ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 121ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 118ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 119ms, whole sover
+10:  1.9008e-03  1.9984e-03  1e-02  4e-05  1e-06  1e-04
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1647 t2-t1 = 569ms, t3-t2 = 168ms, t4-t3 = 53ms, t5-t4 = 494ms, t5-t0 = 2790ms
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 120ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 119ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 118ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 119ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 118ms, whole sover
+11:  1.5680e-03  1.6340e-03  1e-02  3e-05  9e-07  7e-05
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1647 t2-t1 = 610ms, t3-t2 = 186ms, t4-t3 = 57ms, t5-t4 = 548ms, t5-t0 = 2991ms
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 136ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 133ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 130ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 142ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 146ms, whole sover
+12:  1.5452e-03  1.5808e-03  8e-03  2e-05  7e-07  4e-05
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1647 t2-t1 = 612ms, t3-t2 = 184ms, t4-t3 = 56ms, t5-t4 = 541ms, t5-t0 = 2922ms
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 132ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 134ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 136ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 135ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 133ms, whole sover
+13:  1.3848e-03  1.3969e-03  3e-03  7e-06  2e-07  1e-05
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1647 t2-t1 = 580ms, t3-t2 = 189ms, t4-t3 = 58ms, t5-t4 = 532ms, t5-t0 = 2906ms
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 134ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 130ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 136ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 136ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 132ms, whole sover
+14:  1.2686e-03  1.2763e-03  3e-03  5e-06  2e-07  8e-06
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1647 t2-t1 = 727ms, t3-t2 = 200ms, t4-t3 = 53ms, t5-t4 = 494ms, t5-t0 = 2998ms
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 167ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 170ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 170ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 175ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 169ms, whole sover
+15:  1.2504e-03  1.2546e-03  2e-03  4e-06  1e-07  4e-06
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1647 t2-t1 = 687ms, t3-t2 = 204ms, t4-t3 = 57ms, t5-t4 = 427ms, t5-t0 = 2804ms
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 135ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 132ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 132ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 129ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 131ms, whole sover
+16:  1.1817e-03  1.1831e-03  9e-04  1e-06  4e-08  1e-06
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1647 t2-t1 = 729ms, t3-t2 = 165ms, t4-t3 = 59ms, t5-t4 = 485ms, t5-t0 = 2972ms
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 141ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 135ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 134ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 134ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 133ms, whole sover
+17:  1.1668e-03  1.1677e-03  8e-04  1e-06  4e-08  9e-07
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1647 t2-t1 = 672ms, t3-t2 = 242ms, t4-t3 = 60ms, t5-t4 = 506ms, t5-t0 = 2889ms
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 141ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 134ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 134ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 134ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 133ms, whole sover
+18:  1.1593e-03  1.1598e-03  6e-04  9e-07  3e-08  5e-07
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1647 t2-t1 = 407ms, t3-t2 = 160ms, t4-t3 = 54ms, t5-t4 = 530ms, t5-t0 = 2759ms
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 165ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 163ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 163ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 161ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 190ms, whole sover
+19:  1.1401e-03  1.1402e-03  3e-04  4e-07  1e-08  2e-07
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1647 t2-t1 = 588ms, t3-t2 = 164ms, t4-t3 = 56ms, t5-t4 = 525ms, t5-t0 = 3120ms
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 168ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 163ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 166ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 168ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 164ms, whole sover
+20:  1.1343e-03  1.1344e-03  2e-04  3e-07  8e-09  1e-07
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1647 t2-t1 = 674ms, t3-t2 = 166ms, t4-t3 = 58ms, t5-t4 = 528ms, t5-t0 = 2997ms
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 183ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 178ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 180ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 183ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 172ms, whole sover
+21:  1.1332e-03  1.1333e-03  2e-04  2e-07  7e-09  8e-08
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1647 t2-t1 = 568ms, t3-t2 = 207ms, t4-t3 = 76ms, t5-t4 = 540ms, t5-t0 = 2973ms
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 152ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 150ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 143ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 139ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 139ms, whole sover
+22:  1.1267e-03  1.1267e-03  6e-05  8e-08  3e-09  3e-08
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1647 t2-t1 = 662ms, t3-t2 = 206ms, t4-t3 = 59ms, t5-t4 = 496ms, t5-t0 = 2868ms
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 147ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 145ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 145ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 146ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 144ms, whole sover
+23:  1.1244e-03  1.1244e-03  6e-05  7e-08  2e-09  2e-08
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1647 t2-t1 = 677ms, t3-t2 = 171ms, t4-t3 = 57ms, t5-t4 = 475ms, t5-t0 = 2794ms
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 154ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 175ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 149ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 145ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 143ms, whole sover
+24:  1.1235e-03  1.1235e-03  3e-05  4e-08  1e-09  1e-08
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1647 t2-t1 = 765ms, t3-t2 = 167ms, t4-t3 = 59ms, t5-t4 = 538ms, t5-t0 = 3007ms
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 137ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 136ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 144ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 148ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 152ms, whole sover
+25:  1.1222e-03  1.1222e-03  2e-05  2e-08  6e-10  5e-09
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1647 t2-t1 = 756ms, t3-t2 = 181ms, t4-t3 = 64ms, t5-t4 = 592ms, t5-t0 = 3220ms
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 159ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 155ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 148ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 147ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 146ms, whole sover
+26:  1.1214e-03  1.1214e-03  1e-05  1e-08  4e-10  3e-09
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1647 t2-t1 = 406ms, t3-t2 = 172ms, t4-t3 = 55ms, t5-t4 = 567ms, t5-t0 = 2757ms
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 173ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 185ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 184ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 183ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 185ms, whole sover
+27:  1.1213e-03  1.1213e-03  1e-05  1e-08  3e-10  3e-09
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1647 t2-t1 = 376ms, t3-t2 = 153ms, t4-t3 = 53ms, t5-t4 = 512ms, t5-t0 = 2808ms
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 182ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 185ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 178ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 177ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 181ms, whole sover
+28:  1.1209e-03  1.1209e-03  4e-06  7e-09  1e-10  1e-09
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1647 t2-t1 = 576ms, t3-t2 = 211ms, t4-t3 = 59ms, t5-t4 = 526ms, t5-t0 = 2933ms
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 141ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 137ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 137ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 137ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 137ms, whole sover
+29:  1.1207e-03  1.1207e-03  3e-06  7e-09  9e-11  8e-10
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1647 t2-t1 = 674ms, t3-t2 = 203ms, t4-t3 = 94ms, t5-t4 = 524ms, t5-t0 = 2922ms
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 138ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 132ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 170ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 133ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 132ms, whole sover
+30:  1.1206e-03  1.1206e-03  1e-06  6e-09  3e-11  3e-10
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1647 t2-t1 = 646ms, t3-t2 = 206ms, t4-t3 = 72ms, t5-t4 = 532ms, t5-t0 = 2918ms
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 136ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 134ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 134ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 132ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 132ms, whole sover
+31:  1.1206e-03  1.1206e-03  3e-07  6e-09  1e-11  8e-11
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1647 t2-t1 = 577ms, t3-t2 = 164ms, t4-t3 = 53ms, t5-t4 = 499ms, t5-t0 = 2816ms
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 163ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 159ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 159ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 164ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 166ms, whole sover
+32:  1.1206e-03  1.1206e-03  3e-07  7e-09  7e-12  6e-11
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1647 t2-t1 = 632ms, t3-t2 = 166ms, t4-t3 = 53ms, t5-t4 = 476ms, t5-t0 = 3018ms
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 159ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 163ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 171ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 170ms, whole sover
+/home/zhijieli/.conda/envs/zhijieli_stxflow3.0/lib/python2.7/site-packages/cvxopt-1.2.5+0.g5b59d87.dirty-py2.7-linux-x86_64.egg/cvxopt/misc.pyc line:1718 time = 165ms, whole sover
+33:  1.1205e-03  1.1205e-03  1e-08  7e-09  3e-13  3e-12
+Optimal solution found.
+K=60, connectivity=3, time is 2min 18s
