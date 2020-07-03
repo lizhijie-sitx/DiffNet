@@ -1,6 +1,7 @@
 import numpy as np
 import cvxopt
 from cvxopt import blas, lapack, solvers, matrix, spmatrix, misc
+from sumdR2_C import sumdR2_C
 
 def upper_index( i, j, K):
     '''
@@ -285,7 +286,8 @@ def Aopt_KKT_solver( si2, W):
     for i in xrange(K):
         blas.gemm( rtis[i], rtis[i], Ris[i], transB = 'T')
 
-    ddR2 = sumdR2( Ris, K)
+    ddR2 = matrix( 0., (K*(K+1)/2, K*(K+1)/2))
+    sumdR2_C( Ris, ddR2, K)
 
     # upper triangular representation si2ab[(a,b)] := si2[a,b]
     si2ab = matrix( 0., (K*(K+1)/2, 1))

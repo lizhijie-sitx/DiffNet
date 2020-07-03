@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source /software/anaconda2/bin/activate netbfe
+source /software/anaconda2/bin/activate zhijieli_stxflow3.0
 
 function do_benchmark()
 {
@@ -14,8 +14,7 @@ function do_benchmark()
 
     end_time=$(date +%s)
     cost_time=$[ $end_time-$start_time ]
-    echo "K=$1, time is $(($cost_time/60))min $(($cost_time%60))s" >> result.txt
-}
+    echo "K=$1, time is $(($cost_time/60))min $(($cost_time%60))s"
 
 function do_benchmark_sparse()
 {
@@ -30,12 +29,12 @@ function do_benchmark_sparse()
 
     end_time=$(date +%s)
     cost_time=$[ $end_time-$start_time ]
-    echo "K=$1, connectivity=$2, time is $(($cost_time/60))min $(($cost_time%60))s" >> sparse_result.txt.$2
+    echo "K=$1, connectivity=$2, time is $(($cost_time/60))min $(($cost_time%60))s"
 }
 
 # do_benchmark 10
 # do_benchmark 20
-# do_benchmark 30
+do_benchmark 30
 # do_benchmark 40
 # do_benchmark 50
 # do_benchmark 60
@@ -44,13 +43,14 @@ function do_benchmark_sparse()
 # do_benchmark 90
 # do_benchmark 100
 
-do_benchmark_sparse 10 2
-do_benchmark_sparse 20 2
-do_benchmark_sparse 30 2
-do_benchmark_sparse 40 2
-do_benchmark_sparse 50 2
-do_benchmark_sparse 60 2
-do_benchmark_sparse 70 2
-do_benchmark_sparse 80 2
-do_benchmark_sparse 90 2
-do_benchmark_sparse 100 2
+# do_benchmark_sparse 10 2
+# do_benchmark_sparse 20 2
+# do_benchmark_sparse 30 2
+# do_benchmark_sparse 40 2
+# do_benchmark_sparse 50 2
+# do_benchmark_sparse 60 2
+# do_benchmark_sparse 70 2
+# do_benchmark_sparse 80 2
+# do_benchmark_sparse 90 2
+# do_benchmark_sparse 100 2
+

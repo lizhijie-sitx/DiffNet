@@ -2,12 +2,14 @@
 
 source /software/anaconda2/bin/activate zhijieli_stxflow3.0
 
+export LD_LIBRARY_PATH=/usr/local/cuda/lib64
+
 function do_benchmark()
 {
     echo "++++++++++++++++++++ Start benchmark, K="$1
     start_time=$(date +%s)
 
-    python -m cProfile -o profile.out ../examples.py \
+    python ../../examples.py \
     --out-update-A-optimal bench_update_A_optimal \
     --num-times 1 \
     -K $1
@@ -22,7 +24,7 @@ function do_benchmark_sparse()
     echo "++++++++++++++++++++ Start benchmark sparse, K="$1
     start_time=$(date +%s)
 
-    python examples.py \
+    python ../../examples.py \
     --out-sparse-A-optimal-network bench_update_A_optimal_sparse \
     --num-times 1 \
     -K $1 \
@@ -36,12 +38,12 @@ function do_benchmark_sparse()
 # do_benchmark 10
 # do_benchmark 20
 # do_benchmark 30
-# do_benchmark 40
+do_benchmark 4
 # do_benchmark 40
 # do_benchmark 60
 # do_benchmark 70
+# do_benchmark 80
 # do_benchmark 90
-do_benchmark 90
 # do_benchmark 100
 
 #do_benchmark_sparse 10 3

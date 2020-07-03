@@ -9,7 +9,7 @@ function do_benchmark()
     echo "++++++++++++++++++++ Start benchmark, K="$1
     start_time=$(date +%s)
 
-    python -m cProfile -o profile.out ../examples.py \
+    python ../../examples.py \
     --out-update-A-optimal bench_update_A_optimal \
     --num-times 1 \
     -K $1
@@ -24,7 +24,7 @@ function do_benchmark_sparse()
     echo "++++++++++++++++++++ Start benchmark sparse, K="$1
     start_time=$(date +%s)
 
-    python -m cProfile -o profile.out ../examples.py \
+    python ../../examples.py \
     --out-sparse-A-optimal-network bench_update_A_optimal_sparse \
     --num-times 1 \
     -K $1 \
@@ -49,13 +49,13 @@ function do_benchmark_sparse()
 #do_benchmark_sparse 10 3
 #do_benchmark_sparse 20 3
 #do_benchmark_sparse 30 3
-#do_benchmark_sparse 40 3
+do_benchmark_sparse 40 7
 #do_benchmark_sparse 50 3
 #do_benchmark_sparse 60 3
 #do_benchmark_sparse 70 3
 #do_benchmark_sparse 80 3
 #do_benchmark_sparse 90 3
 #do_benchmark_sparse 150 3
-do_benchmark_sparse 100 10
+#do_benchmark_sparse 100 10
 
 #python -c "import pstats; p=pstats.Stats('profile.out'); p.sort_stats('cumtime').print_stats()" > profile.txt

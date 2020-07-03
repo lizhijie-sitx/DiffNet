@@ -24,7 +24,7 @@ def distance_net( K, dim=2, rmin=0):
     dij: KxK matrix, dij[i][j] is the distance between i and j, dij[i][i] is
     the distance of i to the origin.
     '''
-
+    np.random.seed(0)
     x = 2.*(np.random.rand( K, dim) - 0.5)
     dij = matrix( 0., (K, K))
     
@@ -288,12 +288,47 @@ def benchmark_E_tree( K=30, ntimes=100):
     dn = np.sqrt( dn)
     return timings, dn
 
-def benchmark_update_A_optimal(K=30, rmin=0.2, dim=2):
+def str_matrix(m):
+    s = ''
+    x, y = m.size
+    for i in range(x):
+        for j in range(y):
+            s += ('%.08f ' % m[i,j])
+        s += '\n'
+    return s
+    
+def dump_matrix(m, name, file):
+    with open(file, 'a') as f:
+        f.write('%s\n' % name)
+        f.write('%s\n' % str_matrix(m))
+
+def benchmark_A_optimal(K=30, rmin=0.2, dim=2, method='conelp'):
+    print("benchmark_A_optimal, K = %d, method = %s" % (K, method))
     def sij_generator():
         return distance_net(K=K, dim=dim, rmin=rmin)[0]
     sij = sij_generator()
     nsofar = matrix(np.zeros([K, K]))
-    update_A_optimal(sij, K * (K + 1) / 2 * 1000, nsofar)
+    nij = A_optimize(sij, K * (K + 1) / 2 * 1000, nsofar, method=method)
+    dump_matrix(sij, 'benchmark sij K = %d, method = %s' % (K, method), 'matrix_%s.txt' % method)
+    dump_matrix(nij, 'benchmark nij K = %d, method = %s' % (K, method), 'matrix_%s.txt' % method)
+
+def check_A_optimal(K=30, rmin=0.2, dim=2):
+    def sij_generator():
+        return distance_net(K=K, dim=dim, rmin=rmin)[0]
+    sij = sij_generator()
+    nsofar = matrix(np.zeros([K, K]))
+    nij_sdp = A_optimize(sij, K * (K + 1) / 2 * 1000, nsofar, method='sdp')
+    nij_conelp = A_optimize(sij, K * (K + 1) / 2 * 1000, nsofar, method='nij_conelp')
+    with open("check_A_optimize_sdp.txt", 'a') as f:
+        f.write('sij\n')
+        f.write('%s\n' % str_matrix(sij))
+        f.write('nij\n')
+        f.write('%s\n' % str_matrix(nij_sdp))
+    with open("check_A_optimize_conelp.txt", 'a') as f:
+        f.write('sij\n')
+        f.write('%s\n' % str_matrix(sij))
+        f.write('nij\n')
+        f.write('%s\n' % str_matrix(nij_conelp))
 
 def benchmark_sparse_A_optimal_network(K=30, rmin=0.2, dim=2, connectivity=3):
     print("benchmark_sparse_A_optimal_network, K= %d, connectivity = %d" % (K, connectivity))
@@ -319,10 +354,14 @@ def opts():
                          help='Name of pickle file to write benchmark results for constant relative error net.')
     parser.add_argument( '--out-random-net', default=None,
                          help='Name of pickle file to write benchmark results for random net.')
-    parser.add_argument( '--out-update-A-optimal', default=None,
+    parser.add_argument( '--out-A-optimal', default=None,
                          help='Name of pickle file to write benchmark results for update A optimal net.')
+    parser.add_argument( '--check-A-optimal', default=None,
+                         help='')
     parser.add_argument( '--out-sparse-A-optimal-network', default=None,
                          help='Name of pickle file to write benchmark results for update A optimal sparse net.')
+    parser.add_argument( '--method', type=str, default='conelp',
+                         help='sdp or conelp')
     parser.add_argument( '--sii-offset', type=float, default=0.,
                          help='The average offset of s_{ii} from s_{ij}.')
     parser.add_argument( '--sij-min', type=float, default=1.,
@@ -370,9 +409,12 @@ def main( args):
         print('stats = \n%s' % stats)
         print('avg = \n%s' % avg)
         print('topo = \n%s' % topo)
-    if args.out_update_A_optimal is not None:
+    if args.out_A_optimal is not None:
         print 'Benchmarking update A optimal...'
-        benchmark_update_A_optimal(args.num_points)
+        benchmark_A_optimal(args.num_points, method=args.method)
+    if args.check_A_optimal is not None:
+        print 'Checking A optimal...'
+        check_A_optimal(args.num_points)
     if args.out_sparse_A_optimal_network is not None:
         print 'Benchmarking update A optimal...'
         benchmark_sparse_A_optimal_network(args.num_points, connectivity=args.connectivity)
