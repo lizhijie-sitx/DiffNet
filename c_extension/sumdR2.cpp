@@ -7,7 +7,6 @@
 #include <iostream>
 #include <mutex>
 #include <future>
-#include <thread>
 #include <map>
 
 #define USE_THREAD 1
@@ -107,36 +106,46 @@ extern "C" void matrix_transpose_2(matrix *src, matrix *dst)
 }
 
 static std::mutex ddR2_lock;
-static void do_sub_sumdR2(const std::vector<matrix*> &Ris, matrix *ddR2, int K)
+static bool do_sub_sumdR2(const std::vector<matrix*> &Ris, matrix *ddR2, int K)
 {
+    bool ret = true;
     matrix *dR = Matrix_New_Internal(K, K * (K + 1) / 2);
     matrix *dRT = Matrix_New_Internal(K * (K + 1) / 2, K);
     matrix *ddR = Matrix_New_Internal(K * (K + 1) / 2, K * (K + 1) / 2);
     matrix *ddR2_t = Matrix_New_Internal(K * (K + 1) / 2, K * (K + 1) / 2);
-    for (int i = 0; i < ddR2_t->ncols * ddR2_t->nrows; i ++) {
-        ((double*)ddR2_t->buffer)[i] = .0f;
+    if (!dR || !dRT || !ddR || !ddR2_t || !dR->buffer 
+        || !dRT->buffer || !ddR->buffer || !ddR2_t->buffer) {
+        ret = false;
     }
-    for (size_t i = 0; i < Ris.size() ; i ++) {
-        // printf("i = %d\n", (int)i);
-        pairwise_diff(Ris[i], dR, K);
-        matrix_transpose_2(dR, dRT);
-        pairwise_diff(dRT, ddR, K);
-        matrix_square_add(ddR2_t, ddR);
+
+    if (ret) {
+        for (int i = 0; i < ddR2_t->ncols * ddR2_t->nrows; i ++) {
+            ((double*)ddR2_t->buffer)[i] = .0f;
+        }
+        for (size_t i = 0; i < Ris.size() ; i ++) {
+            pairwise_diff(Ris[i], dR, K);
+            matrix_transpose_2(dR, dRT);
+            pairwise_diff(dRT, ddR, K);
+            matrix_square_add(ddR2_t, ddR);
+        }
+        ddR2_lock.lock();
+        for (int i = 0; i < ddR2_t->ncols * ddR2_t->nrows; i ++) {
+            ((double*)ddR2->buffer)[i] += ((double*)ddR2_t->buffer)[i];
+        }
+        ddR2_lock.unlock();
     }
-    ddR2_lock.lock();
-    for (int i = 0; i < ddR2_t->ncols * ddR2_t->nrows; i ++) {
-        ((double*)ddR2->buffer)[i] += ((double*)ddR2_t->buffer)[i];
-    }
-    ddR2_lock.unlock();
+
     Matrix_Delete_Internal(dR);
     Matrix_Delete_Internal(dRT);
     Matrix_Delete_Internal(ddR);
     Matrix_Delete_Internal(ddR2_t);
+    return ret;
 }
 
-extern "C" void do_sumdR2(const std::vector<matrix*> &Ris, matrix *ddR2, int K)
+extern "C" bool do_sumdR2(const std::vector<matrix*> &Ris, matrix *ddR2, int K)
 {
 #if USE_THREAD
+    bool ret = true;
     std::vector<std::vector<matrix*>> Ris_group;
     for (int i = 0; i < K; i ++) {
         if (Ris_group.rbegin() == Ris_group.rend() || Ris_group.rbegin()->size() == MAX_THREAD) {
@@ -144,15 +153,16 @@ extern "C" void do_sumdR2(const std::vector<matrix*> &Ris, matrix *ddR2, int K)
         }
         Ris_group.rbegin()->push_back(Ris[i]);
     }
-    std::vector<std::thread> f;
+    std::vector<std::future<bool>> f;
     for (size_t i = 0; i < Ris_group.size(); i ++) {
-        f.push_back(std::thread(do_sub_sumdR2, Ris_group[i], ddR2, K));
+        f.push_back(std::async(std::launch::async, do_sub_sumdR2, Ris_group[i], ddR2, K));
     }
     for (auto &it : f) {
-        it.join();
+        ret = it.get() ? ret : false;
     }
+    return ret;
 #else
-    do_sub_sumdR2(Ris, ddR2, K);
+    return do_sub_sumdR2(Ris, ddR2, K);
 #endif
 }
 
